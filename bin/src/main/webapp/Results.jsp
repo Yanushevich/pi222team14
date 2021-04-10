@@ -11,8 +11,8 @@
 <h1>Результат</h1>
 <h2>Ваши введенные данные:</h2>
 <br>
-<p><strong>Сторона:</strong> ${storona_result} см.</p>
-<p><strong>Результат:</strong> ${result} см.</p>
+<p><strong>Сторона:</strong> ${storona_result} мм.</p>
+<p><strong>Результат:</strong> ${result} мм.</p>
 
 <form action="${pageContext.request.contextPath}/Form.jsp">
     <input type="submit" name="sign" value="Назад">
