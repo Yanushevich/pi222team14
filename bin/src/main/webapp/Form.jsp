@@ -12,7 +12,7 @@
 <br>
 <br>
     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-        <label for="storona">Введите сторону ромба (в см):</label>
+        <label for="storona">Введите сторону ромба (в мм):</label>
         <input type="text" name="storona" id="storona" value="${storona}">
         <input type="submit" name="sign" value="Calculate">
         <br>
